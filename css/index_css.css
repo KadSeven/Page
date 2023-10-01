@@ -1,0 +1,66 @@
+:root{
+    --primary: black;
+    --background: grey;
+    --letter: #fff;
+    --media600: red;
+    --border: grey;
+}
+
+body {
+    background: var(--background);
+    background-image: url(https://usagif.com/wp-content/uploads/2022/hqgif/elmo-9-transparent-elmo-fire-meme-acegif.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.nav_enlace {
+    display: inline-block;
+    background:var(--background);
+    color: var(--letter);
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+#Inicio:hover {
+    background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/002/619/250/613.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav {
+    background: var(--primary);
+    padding: 15px 15px 15px 15px ;
+    justify-content: space-around;
+    display: flex;
+}
+
+.button {
+    background: var(--background);
+    color: var(--letter);
+    padding: 10px 2px;
+    border: 2px solid var(--border);
+    display: none;
+}
+
+@media (max-width: 600px) {
+    nav {
+        background: var(--media600);
+        flex-direction: column;
+        display: flex ;
+        justify-content: space-around;
+    }
+
+    .nav_enlace {
+        margin: 2px;
+        background: var(--primary);
+    }
+
+    .desaparece {
+        display: none;
+    }
+    
+    .button {
+        display: inline-block;
+        background: var(--primary);
+    } 
+}

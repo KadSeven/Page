@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link rel="stylesheet" href="css/index_css.css">
 </head>
 <body>
-    
+    <nav>
+        <button class="button" onclick="accion()">Menú</button>
+        <a href="#" class="nav_enlace desaparece" id="Inicio">Inicio</a>
+        <a href="#" class="nav_enlace desaparece">Random #1</a>
+        <a href="#" class="nav_enlace desaparece">Random #2</a>
+        <a href="#" class="nav_enlace desaparece">Random #3</a>
+        <a href="#" class="nav_enlace desaparece">Contacto</a>
+    </nav>
+    <script>
+        function accion (){
+            var ancla = document.getElementsByClassName ('nav_enlace');
+            for(var i = 0; i < ancla.length; i++) {
+                ancla[i].classList.toggle('desaparece');
+            }
+        }
+    </script>
 </body>
 </html>
