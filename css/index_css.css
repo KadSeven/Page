@@ -6,6 +6,22 @@
     --border: grey;
 }
 
+.table {
+    border: 7px solid grey;
+    background-image: url(https://i.ytimg.com/vi/x9EI1aLFfAo/maxresdefault.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 150px;
+    margin-left: 680px;
+}
+
+.table:hover {
+    background-image: url(https://media.tenor.com/Rpk3q-OLFeYAAAAC/hakari-dance-hakari.gif);
+    width: 500px;
+    height: 280px;
+}
+
 body {
     background: var(--background);
     background-image: url(https://usagif.com/wp-content/uploads/2022/hqgif/elmo-9-transparent-elmo-fire-meme-acegif.gif);
