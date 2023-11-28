@@ -7,24 +7,25 @@
     <link rel="stylesheet" href="css/index_css.css">
 </head>
 <body>
+
     <nav>
         <button class="button" onclick="accion()">Menú</button>
         <a href="index.html" class="nav_enlace desaparece" id="Inicio">Inicio</a>
         <a href="html/random1.html" class="nav_enlace desaparece" id="random1">Random #1</a>
-        <a href="html/random2.html" class="nav_enlace desaparece" id="random2">Random #2</a>
-        <a href="html/random3.html" class="nav_enlace desaparece" id="random3">Random #3</a>
         <a href="html/contacto.html" class="nav_enlace desaparece" id="contacto">Contacto</a>
     </nav>
-        <div class="table">
-            
-        </div>
-    <script>
-        function accion (){
-            var ancla = document.getElementsByClassName ('nav_enlace');
-            for(var i = 0; i < ancla.length; i++) {
-                ancla[i].classList.toggle('desaparece');
-            }
-        }
-    </script>
+
+    <div class="table">
+    </div>
+
+    <h1>Anime y Juegos</h1>
+
+    <div id="gallery">
+        <img src="https://media.tenor.com/5uAGKHLENvIAAAAd/bleach-bleach-anime.gif" id="imageDisplay" alt="Imagen inicial">
+    </div>
+
+    <button id="changeImage">Cambiar Imagen</button>
+
+    <script src="js/anime-games.js"></script>
 </body>
 </html>

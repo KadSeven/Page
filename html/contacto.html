@@ -10,9 +10,25 @@
     <nav>
         <a href="../index.html" class="nav_enlace" id="Inicio">Inicio</a>
         <a href="../html/random1.html" class="nav_enlace" id="random1">Random #1</a>
-        <a href="../html/random2.html" class="nav_enlace" id="random2">Random #2</a>
-        <a href="../html/random3.html" class="nav_enlace" id="random3">Random #3</a>
         <a href="../html/contacto.html" class="nav_enlace" id="contacto">Contacto</a>
     </nav>
+
+    <form id="contactForm">
+        <div>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+      
+    <script src="../js/contacto.js"></script>
 </body>
 </html>

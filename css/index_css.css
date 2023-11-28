@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
     height: 80px;
     width: 150px;
-    margin-left: 680px;
+    margin: center;
 }
 
 .table:hover {
@@ -23,6 +23,9 @@
 }
 
 body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
     background: var(--background);
     background-image: url(https://usagif.com/wp-content/uploads/2022/hqgif/elmo-9-transparent-elmo-fire-meme-acegif.gif);
 }
@@ -41,24 +44,11 @@ body {
     background-size: 100%;
 }
 
-#random2:hover {
-    background-image: url(https://i.pinimg.com/originals/be/53/fc/be53fc5350400539c44b3bc7c2552fe9.gif);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#random3:hover {
-    background-image: url(https://i.gifer.com/origin/e3/e3ae369ad93835f8a30a503ae116e3fb.gif);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
 #contacto:hover {
     background-image: url(https://www.icegif.com/wp-content/uploads/icegif-2013.gif);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
 
 #Inicio:hover {
     background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/002/619/250/613.gif);
@@ -102,4 +92,18 @@ nav {
         display: inline-block;
         background: var(--primary);
     } 
-}
+    
+    }
+
+    h1 {
+        text-align: center;
+    }
+  
+    #gallery {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+  
+    #imageDisplay {
+        max-width: 400px;
+    }
